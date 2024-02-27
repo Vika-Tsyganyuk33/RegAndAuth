@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #212529;
+}
+main {
+    flex-grow: 1;
+}
+html {
+    background-color: #212529;
+}
+a {
+    text-decoration: none;
+}
+.choice img {
+    max-width: 416px;
+    width: 100%;
+}
+.enter {
+    margin-left: 42%;
+}
+.bold {
+    font-weight: bold;
+}
+.card-img-top {
+    max-width: 300px;
+    width: 100%;
+}
+li {
+    list-style-type: none;
+}
+footer li:hover, u:hover {
+    color: #0d6efd;
+}
+.logo:hover {
+    color: #0d6efd;
+}
+.table img:first-child {
+    width: 25px;
+}
+.itog b, .itog p {
+    display: inline-block;
+}
+.none {
+    display: none;
+}
+.cart_none {
+    color: black;
+}
+.cart_none:hover {
+    color: black;
+}
+.product img {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-right: 15px;
+}
+.prod_center {
+    text-align: center;
+}
+.product p {
+    display: inline-block;
+}
+.name {
+    margin-top: 30px;
+}
+.text h3 {
+    margin-bottom: 30px;
+}
+.height {
+    margin-top: 140px !important;
+   }
+.my_class .py-3{
+    padding-bottom: 8rem !important;
+}
+
+.img_user {
+    width: 350px;
+    display: inline-block;
+}
+.info_user {
+    display: inline-block;
+}
+.info_user p {
+    width: 200px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+
+@media (max-width: 991px) {
+   .px-5 {
+        padding-left: 0rem !important;
+    } 
+}
+@media (max-width: 1024px) {
+   .wid {
+    width: 846px !important;
+   }
+   .my_class {
+    height: 105vh;
+   }
+   .prod_center img {
+    max-width: 250px;
+    width: 100%;
+   }
+    .name {
+        margin-top: 0px;
+    }
+}
+@media (max-width: 768px) {
+    .inf {
+        display: inline-block;
+    }
+    .inf li {
+        display: inline-block !important;
+    }
+    .inf a {
+        display: inline-block !important;
+    }
+    .none {
+        display: initial;
+        
+    }
+    .none_2 {
+        display: none;
+    }
+    .wid {
+        width: 608px !important;
+       }
+    .prod_center img {
+        max-width: 200px;
+        width: 100%;
+    }
+    .name {
+        margin-top: 0px;
+    }
+    .text {
+        font-size: 14px;
+    }
+    .text h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .text a {
+        font-size: 14px;
+    }
+    .fot {
+        width: 160px !important;
+    }
+    .ms-3{
+        margin-left: 4rem !important;
+    }
+}
